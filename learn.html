@@ -1,0 +1,926 @@
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" type="text/css" href="css/hash.css" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+  <!--Remixicons-->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet" />
+
+  <!-- fav icon -->
+  <link rel="icon" href="img/common-img/favicon.ico">
+
+  <title>Learn Coding in an Inclusive Environment | Hands-On, Engaging Approach | HashHackCode</title>
+  <meta name="description"
+    content="HashHackCode offers coding classes for all abilities, with a hands-on, interactive approach to learning. Explore our inclusive community of diverse learners and discover a new way to learn coding.">
+  <meta property="og:title"
+    content="Learn Coding in an Inclusive Environment | Hands-On, Engaging Approach | HashHackCode">
+  <meta property="og:description"
+    content="Join an inclusive community of diverse learners and discover a new way to learn coding.">
+  <meta property="og:image" content="https://hashhackcode.com/hhc.jpg">
+  <meta property="og:url" content="https://hashhackcode.com/learn">
+
+</head>
+
+<body>
+  <div class="pageGrid learn">
+    <header class="bg">
+      <section id="h1" class="nav-bar">
+        <div class="customGrid center center-y-all gp-xs" style="--grid: 1fr 2.5fr">
+          <div class="inner n0-i1 logo start-x-single">
+            <a href="index.html">
+              <img src="img/common-img/hhc-logo.png" alt="logo" />
+            </a>
+          </div>
+          <div class="inner-flex n0-i2 flex-between center-y-flex" id="nav-menu">
+            <ul class="inner-flex n1-i1 gp-lg center-x-flex">
+              <li class="inner n2-i1 dropdown-item">
+                <div class="inner-flex n3-i1 center-y-flex nav-link">
+                  Courses <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                </div>
+                <ul class="inner n3-i2 dropdown-menu">
+                  <li class="bordertop">
+                    <a href="early-logic.html" class="dropdown-link">
+                      Early Logic
+                    </a>
+                  </li>
+                  <li class="borderbottom">
+                    <a href="creative-coding.html" class="dropdown-link">
+                      Creative Coding
+                    </a>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="inner n2-i2 dropdown-item">
+                <a href="learn.html" class="inner-flex n3-i1 center-y-flex nav-link">
+                  Learn <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                </a>
+
+                <ul class="inner n3-i2 dropdown-menu">
+                  <li class="bordertop">
+                    <a href="#selfpaced" class="dropdown-link">
+                      Self-Paced Track
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#mentoredtrack" class="dropdown-link">
+                      Mentored Track
+                    </a>
+                  </li>
+                  <li class="borderbottom">
+                    <a href="#grouptrack" class="dropdown-link">
+                      Group Track
+                    </a>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="inner-flex n2-i3 dropdown-item center-y-flex">
+                <a href="about.html" class="nav-link"> About </a>
+              </li>
+
+              <li class="inner n2-i4 dropdown-item">
+                <div class="inner-flex center-y-flex n3-i1 nav-link">
+                  Resources
+                  <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                </div>
+                <ul class="inner n3-i2 dropdown-menu">
+                  <li class="bordertop">
+                    <a href="press.html" class="dropdown-link"> Press </a>
+                  </li>
+                  <li class="borderbottom">
+                    <a href="contact.html" class="dropdown-link"> Contact </a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <div class="inner n1-i2 center-y-single">
+              <a href="https://forms.gle/DRwiA5gdKBqWFsxJA" target="_blank">
+                <button>Book a call</button>
+              </a>
+            </div>
+          </div>
+          <!-- Mobile -->
+          <div class="inner n0-i3 nav-toggle center-x-single" id="nav-toggle">
+            <i class="ri-menu-line nav__burger"> </i>
+            <i class="ri-close-line nav__close"></i>
+          </div>
+        </div>
+      </section>
+      <section id="h2">
+        <div class="customGrid gp-xs single-sm" style="--grid: 1.5fr 1fr">
+          <div class="inner n0-i1 mt-lg-single">
+            <div class="inner n1-i1 mt-md-single">
+              <h1>
+                A Different Way to
+                Learn Coding
+              </h1>
+            </div>
+            <div class="inner n1-i2 mt-sm-single">
+              <p>
+                We don't just teach. We unlock <br />
+                potential.
+              </p>
+            </div>
+            <div class="inner n1-i3 mt-sm-single">
+              <a href="https://bit.ly/HHCFORM" target="_blank">
+                <button class="join-now">Join Now</button>
+              </a>
+            </div>
+          </div>
+          <div class="inner n0-i2">
+            <img src="img/learn/learn-hero1.png" alt="learn-hero-image" />
+          </div>
+        </div>
+      </section>
+    </header>
+    <main>
+      <section id="m1">
+        <div class="customGrid gp-xs single-sm" style="--grid: 1fr 2fr">
+          <div class="inner n0-i1">
+            <img src="img/learn/CodingForAll.png" alt="learn-coders" />
+          </div>
+          <div class="inner n0-i2 center-y-single end-x-single">
+            <div class="inner n1-i1 mb-sm-single">
+              <h2>#CodingForAll</h2>
+            </div>
+            <div class="inner n1-i2">
+              <p>
+                At HashHackCode, we believe every child has the <br />
+                potential to excel in coding. We're proud to work with <br />
+                a diverse community of learners, including those with
+              </p>
+            </div>
+            <div class="inner n1-i3 mt-sm-single pl-md-single">
+              <ul class="pb-sm-all">
+                <li>ADHD/ADD</li>
+                <li>Dyslexia</li>
+                <li>Down Syndrome</li>
+                <li>Autism</li>
+                <li>Learning Difficulties</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="m2" class="card-slide">
+        <div class="simpleGrid pb-sm-single">
+          <div class="inner-col n0-i1 single-sm pb-xs-single learning-padding" style="--col: 2">
+            <div class="inner n1-i1">
+              <h2>
+                Our Approach <br />
+                to Learning
+              </h2>
+            </div>
+            <div class="inner n1-i2">
+              <p>
+                At HashHackCode, we believe in learning by doing. Our approach
+                ensures that students not only understand coding concepts but
+                also apply them in real-world scenarios.
+              </p>
+            </div>
+          </div>
+          <div class="inner n0-i2 swiper mt-md-single">
+            <div class="inner n1-i1 band-swiper">
+              <div class="inner-flex n2-i1 swiper-wrapper">
+                <div class="inner n3-i1 swiper-slide">
+                  <div class="inner n4-i1">
+                    <div class="inner n5-i1 pb-lg-single">
+                      <img class="bg-circle" src="img/common-img/Star.png" alt="bg-circle" />
+                      <img class="inner-img" src="img/learn/Interactive.svg" alt="Interactive" />
+                    </div>
+                    <div class="inner n5-i2">
+                      <h3>
+                        Interactive <br />
+                        Learning
+                      </h3>
+                      <p>
+                        Engage actively with lessons that involve
+                        decision-making and hands-on coding.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="inner n3-i2 swiper-slide">
+                  <div class="inner n4-i1">
+                    <div class="inner n5-i1 pb-lg-single">
+                      <img class="bg-circle" src="img/common-img/Star.png" alt="bg-circle" />
+                      <img class="inner-img" src="img/learn/Guided.svg" alt="Guided" />
+                    </div>
+                    <div class="inner n5-i2">
+                      <h3 class="text-white">
+                        Guided <br />
+                        Discovery
+                      </h3>
+                      <p class="text-white">
+                        Explore and experiment with guidance at every step,
+                        helping you construct your understanding.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="inner n3-i3 swiper-slide">
+                  <div class="inner n4-i1">
+                    <div class="inner n5-i1 pb-lg-single">
+                      <img class="bg-circle" src="img/common-img/Star.png" alt="bg-circle" />
+                      <img class="inner-img" src="img/learn/Hands-On.svg" alt="Hands-On" />
+                    </div>
+                    <div class="inner n5-i2">
+                      <h3>
+                        Hands-On <br />
+                        Experience
+                      </h3>
+                      <p>
+                        Solidify knowledge through practical activities, not
+                        just theory.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="inner n3-i4 swiper-slide">
+                  <div class="inner n4-i1">
+                    <div class="inner n5-i1 pb-lg-single">
+                      <img class="bg-circle" src="img/common-img/Star.png" alt="bg-circle" />
+                      <img class="inner-img" src="img/learn/Incremental.svg" alt="Incremental" />
+                    </div>
+                    <div class="inner n5-i2">
+                      <h3>
+                        Incremental <br />
+                        Learning
+                      </h3>
+                      <p>
+                        Build your understanding with manageable, bite-sized
+                        content.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="inner n3-i5 swiper-slide">
+                  <div class="inner n4-i1">
+                    <div class="inner pb-xl-single">
+                      <img class="bg-circle" src="img/common-img/Star.png" alt="bg-circle" />
+                      <img class="inner-img" src="img/learn/Immediate.svg" alt="Immediate" />
+                    </div>
+                    <div class="inner n5-i2">
+                      <h3>
+                        Immediate <br />
+                        Feedback
+                      </h3>
+                      <p>
+                        Learn efficiently with real-time feedback to correct
+                        mistakes.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="inner n3-i6 swiper-slide">
+                  <div class="inner n4-i1">
+                    <div class="inner n5-i1 pb-lg-single">
+                      <img class="bg-circle" src="img/common-img/Star.png" alt="bg-circle" />
+                      <img class="inner-img" src="img/learn/Engagement.svg" alt="Engagement" />
+                    </div>
+                    <div class="inner n5-i2">
+                      <h3>Engagement through Questions</h3>
+                      <p>
+                        Stay involved and think critically with frequent
+                        prompts and questions.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Pagination -->
+          <div class="swiper-pagination band-pagination"></div>
+        </div>
+      </section>
+      <section id="m3" class="outline-text">
+        <div class="layerGrid">
+          <div class="inner n0-i1 center">
+            <h1>HASHHACKCODE</h1>
+          </div>
+          <div class="inner n0-i2 center-y-single center-x-single">
+            <h2>Structured for Success</h2>
+          </div>
+        </div>
+      </section>
+      <section id="m4">
+        <div class="simpleGrid">
+          <div class="inner-col n0-i1 single-sm gp-xl" style="--col: 2">
+            <div class="inner n2-i1">
+              <h2>
+                Our Learning <br />
+                Pathway
+              </h2>
+            </div>
+            <div class="inner n2-i2">
+              <p>
+                Our curriculum is designed to guide learners from <br />
+                foundational concepts to advanced coding skills and <br />
+                specialized industry certifications. The pathway is <br />
+                divided into three key levels
+              </p>
+            </div>
+          </div>
+          <div class="inner n0-i2 mt-xs-single">
+            <img src="img/learn/Our-Learning-Pathway.png" alt="Our-Learning-Pathway" />
+          </div>
+        </div>
+      </section>
+      <section id="m5" class="Card bar">
+        <div class="simpleGrid">
+          <div class="inner-flex n0-i2 flex-between gp-md mt-sm-single p-sm-all">
+            <div class="inner n1-i1">
+              <div class="inner n2-i1 pb-xl-single">
+                <img class="bg-circle" src="img/common-img/Star.png" alt="bg-circle" />
+                <img class="inner-img" src="img/learn/Foundation.svg" alt="selfpacedTrack" />
+              </div>
+              <div class="inner n2-i2">
+                <h3>Foundation Level</h3>
+                <p>
+                  Start with the basics and <br />
+                  lay a strong coding <br />
+                  foundation.
+                </p>
+              </div>
+            </div>
+            <div class="inner n1-i2">
+              <div class="inner n2-i1 pb-xl-single">
+                <img class="bg-circle" src="img/common-img/Star.png" alt="bg-circle" />
+                <img class="inner-img" src="img/learn/Advanced-Level.svg" alt="mentoredtrack" />
+              </div>
+              <div class="inner n2-i2">
+                <h3>Advanced Level</h3>
+                <p>
+                  Build on your skills with <br />
+                  more complex coding <br />
+                  techniques.
+                </p>
+              </div>
+            </div>
+            <div class="inner n1-i3">
+              <div class="inner n2-i1 pb-xl-single">
+                <img class="bg-circle" src="img/common-img/Star.png" alt="bg-circle" />
+                <img class="inner-img" src="img/learn/Specialization.svg" alt="GroupTrack" />
+              </div>
+              <div class="inner n2-i2">
+                <h3>Specialization Level</h3>
+                <p>
+                  Focus on areas of interest <br />
+                  and earn industry <br />
+                  certifications.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="m6" class="cta">
+        <div class="customGrid center-x-single center-y-single pl-xl-single" style="--grid: 1fr 2fr">
+          <div class="inner n0-i1 center-y-single">
+            <h4 class="pb-md-single">Join Our Inclusive Coding Classes</h4>
+            <button class="apply-button">Apply Now</button>
+          </div>
+          <div class="inner n0-i2">
+            <img src="img/common-img/rocket.png" alt="rocket" />
+          </div>
+        </div>
+      </section>
+      <section id="m7" class="mb-cta">
+        <div class="simpleGrid single-sm">
+          <div class="inner-layer n0-i2">
+            <div class="inner n1-i1 mb-rocket">
+              <img src="img/common-img/mb-rocket1.png" alt="mb-rocket" />
+            </div>
+            <div class="inner n1-i2 center p-xl-single">
+              <h4>Join Our Inclusive Coding Classes</h4>
+            </div>
+          </div>
+          <div class="inner n0-i1 center p-sm-single mb-md-single">
+            <button class="apply-button">Apply Now</button>
+          </div>
+        </div>
+      </section>
+      <section id="m8">
+        <div class="simpleGrid bar">
+          <div class="swiper">
+            <div class="inner n1-i1 course-swiper">
+              <div class="inner n2-i1 swiper-wrapper">
+                <div class="inner n3-i1 swiper-slide Card" id="selfpaced">
+                  <div class="inner-custom n4-i1 center-y-all gp-xl single-md" style="--col: 1.5fr 1fr">
+                    <div class="inner n5-i1">
+                      <div class="inner n6-i1">
+                        <h2>Self-Paced Track</h2>
+                      </div>
+                      <div class="inner n6-i2">
+                        <p>
+                          Learn at your own pace with our intuitive app,
+                          designed for busy lives. Study anytime, anywhere
+                          with complete flexibility to fit your schedule.
+                        </p>
+                      </div>
+                      <div class="inner n6-i3 mt-sm-single">
+                        <a href="https://bit.ly/HHCFORM" target="_blank">
+                          <button class="join-now">Join Now</button>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="inner n5-i2">
+                      <img src="img/learn/Track1.png" alt="self paced track" />
+                    </div>
+                  </div>
+                  <div class="inner-flex n4-i2 flex-between gp-md p-sm-all mt-md-single">
+                    <div class="inner n5-i1">
+                      <div class="inner n6-i1 pb-xl-single">
+                        <img class="bg-circle" src="img/common-img/Star.png" alt="bg-circle" />
+                        <img class="inner-img" src="img/learn/Flexible.svg" alt="Flexible" />
+                      </div>
+                      <div class="inner n6-i2">
+                        <h3>Flexible & Convenient</h3>
+                        <p>Study at your own pace with on-demand classes.</p>
+                      </div>
+                    </div>
+                    <div class="inner n5-i2">
+                      <div class="inner n6-i1 pb-xl-single">
+                        <img class="bg-circle" src="img/common-img/Star.png" alt="circle" />
+                        <img class="inner-img" src="img/learn/Advanced-Level.svg" alt="Advanced Level" />
+                      </div>
+                      <div class="inner n6-i2">
+                        <h3>Advanced Level</h3>
+                        <p>
+                          Interactive lessons designed to keep you motivated.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="inner n5-i3">
+                      <div class="inner n6-i1 pb-xl-single">
+                        <img class="bg-circle" src="img/common-img/Star.png" alt="circle" />
+                        <img class="inner-img" src="img/learn/On-Demand.svg" alt="On-Demand" />
+                      </div>
+                      <div class="inner n6-i2">
+                        <h3>On-Demand Support</h3>
+                        <p>
+                          Access help whenever you need it through online
+                          resources.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="inner n3-i1 swiper-slide Card" id="mentoredtrack">
+                  <div class="inner-custom n4-i1 center-y-all gp-xl single-md" style="--col: 1.5fr 1fr">
+                    <div class="inner n5-i1">
+                      <div class="inner n6-i1">
+                        <h2>Mentored Track</h2>
+                      </div>
+                      <div class="inner n6-i2">
+                        <p>
+                          Get personalized 1-on-1 guidance from expert mentors
+                          at HashHackCode Academy to fast-track your coding
+                          journey and reach your goals faster.
+                        </p>
+                      </div>
+                      <div class="inner n6-i3 mt-sm-single">
+                        <a href="https://bit.ly/HHCFORM" target="_blank">
+                          <button class="join-now">Join Now</button>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="inner n5-i2">
+                      <img src="img/learn/Track2.png" alt="mentor track" />
+                    </div>
+                  </div>
+                  <div class="inner-flex n4-i2 flex-between gp-md p-sm-all mt-md-single">
+                    <div class="inner n5-i1">
+                      <div class="inner n6-i1 pb-xl-single">
+                        <img class="bg-circle" src="img/common-img/Star.png" alt="bg-circle" />
+                        <img class="inner-img" src="img/learn/Expert-Guidance.svg" alt="Expert Guidance" />
+                      </div>
+                      <div class="inner n6-i2">
+                        <h3>
+                          Expert <br />
+                          Guidance
+                        </h3>
+                        <p>
+                          Learn with dedicated mentors who tailor lessons to
+                          your needs.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="inner n5-i2">
+                      <div class="inner n6-i1 pb-xl-single">
+                        <img class="bg-circle" src="img/common-img/Star.png" alt="circle" />
+                        <img class="inner-img" src="img/learn/Accelerated.svg" alt="Accelerated Progress" />
+                      </div>
+                      <div class="inner n6-i2">
+                        <h3>
+                          Accelerated <br />
+                          Progress
+                        </h3>
+                        <p>
+                          Fast-track options available to boost your learning
+                          speed.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="inner n5-i3">
+                      <div class="inner n6-i1 pb-xl-single">
+                        <img class="bg-circle" src="img/common-img/Star.png" alt="circle" />
+                        <img class="inner-img" src="img/learn/Continuous.svg" alt="Continuous" />
+                      </div>
+                      <div class="inner n6-i2">
+                        <h3>
+                          Continuous <br />
+                          Feedback
+                        </h3>
+                        <p>Ongoing support to help you master coding.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="inner n3-i1 swiper-slide Card" id="grouptrack">
+                  <div class="inner-custom n4-i1 center-y-all gp-xl single-md" style="--col: 1.5fr 1fr">
+                    <div class="inner n5-i1">
+                      <div class="inner n6-i1">
+                        <h2>Group Track</h2>
+                      </div>
+                      <div class="inner n6-i2">
+                        <p>
+                          Join our CodeLabs for collaborative learning, where
+                          you'll connect with peers, grow in a supportive
+                          environment, and build lasting friendships at
+                          partnered schools.
+                        </p>
+                      </div>
+                      <div class="inner n6-i3 mt-sm-single">
+                        <a href="https://bit.ly/HHCFORM" target="_blank">
+                          <button class="join-now">Join Now</button>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="inner n5-i2">
+                      <img src="img/learn/Track3.png" alt="group track" />
+                    </div>
+                  </div>
+                  <div class="inner-flex n4-i2 flex-between gp-md p-sm-all mt-md-single">
+                    <div class="inner n5-i1">
+                      <div class="inner n6-i1 pb-xl-single">
+                        <img class="bg-circle" src="img/common-img/Star.png" alt="bg-circle" />
+                        <img class="inner-img" src="img/learn/Structured-Learning.svg" alt="Structured Learning" />
+                      </div>
+                      <div class="inner n6-i2">
+                        <h3>Structured Learning</h3>
+                        <p>
+                          Follow a clear, step-by-step curriculum in a group
+                          setting.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="inner n5-i2">
+                      <div class="inner n6-i1 pb-xl-single">
+                        <img class="bg-circle" src="img/common-img/Star.png" alt="circle" />
+                        <img class="inner-img" src="img/learn/Community-Support.svg" alt="Community Support" />
+                      </div>
+                      <div class="inner n6-i2">
+                        <h3>Community Support</h3>
+                        <p>
+                          Learn alongside peers in a supportive environment.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="inner n5-i3">
+                      <div class="inner n6-i1 pb-xl-single">
+                        <img class="bg-circle" src="img/common-img/Star.png" alt="circle" />
+                        <img class="inner-img" src="img/learn/Real-World.svg" alt="Real-World" />
+                      </div>
+                      <div class="inner n6-i2">
+                        <h3>Real-World Projects</h3>
+                        <p>
+                          Gain hands-on experience with practical coding
+                          challenges.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-pagination course-pagination"></div>
+
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+        </div>
+      </section>
+      <section id="m9" class="Card bar">
+        <div class="simpleGrid">
+          <div class="inner-col n0-i1 gp-lg center-y-single single-sm" style="--col: 2">
+            <div class="inner n1-i1">
+              <h2>
+                Why Choose <br />
+                HashHackCode?
+              </h2>
+            </div>
+            <div class="inner n1-i2">
+              <p>
+                At HashHackCode, we believe that every learner is unique, and
+                so is their journey. We are dedicated to making coding
+                accessible, inclusive, and fun for all. Here's what sets us
+                apart:
+              </p>
+            </div>
+          </div>
+          <div class="inner-flex n0-i2 flex-between gp-md mt-md-single">
+            <div class="inner n1-i1 p-sm-single">
+              <div class="inner n2-i1 pb-xl-single">
+                <img class="bg-circle" src="img/common-img/Star.png" alt="bg-circle" />
+                <img class="inner-img" src="img/common-img/web-icon-1.svg" alt="selfpacedTrack" />
+              </div>
+              <div class="inner n2-i2">
+                <h3>Personalized Learning</h3>
+                <p>
+                  We adapt our approach to fit each student's individual
+                  needs, ensuring that everyone succeeds.
+                </p>
+              </div>
+            </div>
+            <div class="inner n1-i2 p-sm-single">
+              <div class="inner n2-i1 pb-xl-single">
+                <img class="bg-circle" src="img/common-img/Star.png" alt="bg-circle" />
+                <img class="inner-img" src="img/learn/inclusive.svg" alt="mentoredtrack" />
+              </div>
+              <div class="inner n2-i2">
+                <h3>Inclusive Environment</h3>
+                <p>
+                  We foster a supportive community where neurotypical and
+                  neurodiverse learners alike can thrive.
+                </p>
+              </div>
+            </div>
+            <div class="inner n1-i3 p-sm-single">
+              <div class="inner n2-i1 pb-xl-single">
+                <img class="bg-circle" src="img/common-img/Star.png" alt="bg-circle" />
+                <img class="inner-img" src="img/learn/flexible.svg" alt="GroupTrack" />
+              </div>
+              <div class="inner n2-i2">
+                <h3>Flexible Options</h3>
+                <p>
+                  With online, self-paced, and in-person group classes, we
+                  offer the flexibility that modern learners need.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="m10">
+        <div class="simpleGrid">
+          <div class="inner-col n0-i1 center-y-single single-sm" style="--col: 2">
+            <div class="inner n1-i1">
+              <h2>Admission Process</h2>
+            </div>
+            <div class="inner n1-i2 pl-xl-single n1-i2">
+              <p>
+                Joining HashHackCode is easy. Our admission <br />
+                process is designed to ensure that every student is <br />
+                placed in the best program for their needs.
+              </p>
+            </div>
+          </div>
+          <div class="inner-col n0-i2 center-x-all gp-sm p-md-all mt-md-single single-md" style="--col: 4">
+            <div class="inner n1-i1">
+              <div class="inner n2-i1 right pr-md-single">
+                <h1>01</h1>
+              </div>
+              <div class="inner n2-i2 pb-md-single">
+                <img src="img/learn/contact-tick.svg" alt="contact-tick" />
+              </div>
+              <div class="inner n2-i3">
+                <h3>Apply Online</h3>
+              </div>
+              <div class="inner n2-i4">
+                <p>
+                  Begin by completing our online application for the
+                  Foundation Course.
+                </p>
+              </div>
+            </div>
+            <div class="inner n1-i2">
+              <div class="inner n2-i1 right pr-md-single">
+                <h1>02</h1>
+              </div>
+              <div class="inner n2-i2 pb-md-single">
+                <img src="img/learn/contact-tick.svg" alt="contact-tick" />
+              </div>
+              <div class="inner n2-i3">
+                <h3>Parent Interview</h3>
+              </div>
+              <div class="inner n2-i4">
+                <p>
+                  We conduct a phone interview with parents to better
+                  understand the student.
+                </p>
+              </div>
+            </div>
+            <div class="inner n1-i3">
+              <div class="inner n2-i1 right pr-md-single">
+                <h1>03</h1>
+              </div>
+              <div class="inner n2-i2 pb-md-single">
+                <img src="img/learn/contact-tick.svg" alt="contact-tick" />
+              </div>
+              <div class="inner n2-i3">
+                <h3>Tech Screening</h3>
+              </div>
+              <div class="inner n2-i4">
+                <p>
+                  Simple tasks are used to evaluate the student's tech
+                  proficiency.
+                </p>
+              </div>
+            </div>
+            <div class="inner n1-i4">
+              <div class="inner n2-i1 right pr-md-single">
+                <h1>04</h1>
+              </div>
+              <div class="inner n2-i2 pb-md-single">
+                <img src="img/learn/contact-tick.svg" alt="contact-tick" />
+              </div>
+              <div class="inner n2-i3">
+                <h3>Learning Assessment</h3>
+              </div>
+              <div class="inner n2-i4">
+                <p>
+                  A trial class helps us understand the student's learning
+                  style and needs.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="m11">
+        <div class="simpleGrid pb-xs-all pl-lg-single pr-lg-single pt-xl-single pb-xl-single">
+          <div class="inner n0-i1">
+            <img src="img/learn/orange-eclipse.png" alt="orange background eclipse" />
+          </div>
+          <div class="inner n0-i2 center">
+            <h3>
+              Inspire Innovation, Build <br />
+              Confidence, and Create a Future
+            </h3>
+          </div>
+          <div class="inner n0-i3 center">
+            <p>
+              At HashHackCode, we don't just teach code; we <br />
+              inspire young minds to innovate and think critically.
+            </p>
+          </div>
+          <div class="inner n0-i4 center mt-xs-single">
+            <button class="green-button">Learn Code</button>
+          </div>
+          <div class="inner n0-i5">
+            <img src="img/learn/yellow-eclipse.png" alt="yellow background eclipse" />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <section id="f1" class="pt-xl-single">
+        <div class="customGrid p-sm-single gp-md single-sm single-md" style="--grid: 1fr 1fr 1fr 2fr">
+          <div class="inner n0-i1">
+            <div class="inner n1-i1">
+              <h4>Learn More</h4>
+            </div>
+            <div class="inner n1-i2 mt-lg-single">
+              <a href="early-logic.html">
+                <p>Early Logic</p>
+              </a>
+              <a href="creative-coding.html">
+                <p>Creative Coding</p>
+              </a>
+              <a href="learn.html">
+                <p>Learn</p>
+              </a>
+              <a href="about.html">
+                <p>About</p>
+              </a>
+              <a href="press.html">
+                <p>Press</p>
+              </a>
+              <a href="contact.html">
+                <p>Contact</p>
+              </a>
+            </div>
+            <div class="inner n1-i3 pt-xl-single">
+              <a href="index.html">
+                <img class="footer-logo" src="img/common-img/footer-logo.png" alt="footer-logo">
+              </a>
+            </div>
+          </div>
+          <div class="inner n0-i2">
+            <div class="inner n1-i1">
+              <h4>Social</h4>
+            </div>
+            <div class="inner-flex n1-i2 mt-md-single center-y-flex gp-sm">
+              <a href="https://in.linkedin.com/company/hashhackcode" target="_blank">
+                <img src="img/common-img/linkedin.svg" alt="LinkedIn">
+              </a>
+              <a href="https://in.linkedin.com/company/hashhackcode" target="_blank">
+                <p>LinkedIn</p>
+              </a>
+            </div>
+            <div class="inner-flex n1-i3 center-y-flex gp-sm">
+              <a href="https://www.instagram.com/hashhackcode/" target="_blank">
+                <img src="img/common-img/instagram.svg" alt="instagram">
+              </a>
+              <a href="https://www.instagram.com/hashhackcode/" target="_blank">
+                <p>Instagram</p>
+              </a>
+            </div>
+            <div class="inner-flex n1-i4 center-y-flex gp-sm">
+              <a href="https://www.youtube.com/@hashhackcode" target="_blank">
+                <img src="img/common-img/youtube.svg" alt="youtube">
+              </a>
+              <a href="https://www.youtube.com/@hashhackcode" target="_blank">
+                <p>Youtube</p>
+              </a>
+            </div>
+            <div class="inner-flex n1-i5 center-y-flex gp-sm">
+              <a href="https://www.facebook.com/hashhackcode/" target="_blank">
+                <img src="img/common-img/facebook.svg" alt="facebook">
+              </a>
+              <a href="https://www.facebook.com/hashhackcode/" target="_blank">
+                <p>Facebook</p>
+              </a>
+            </div>
+          </div>
+          <div class="inner n0-i3">
+            <div class="inner n1-i1">
+              <h4>Get in Touch</h4>
+            </div>
+            <div class="inner n1-i2  mt-lg-single">
+              <p>10, 2nd Ave, Extension, <br>Indra
+                Nagar, Adyar, chennai 600020 <br>
+                Tamilnadu. India
+              </p>
+            </div>
+            <div class="inner n1-i3 mt-xl-single">
+              <p><a href="mailto:hi@hashhackcode.com">hi@hashhackcode.com</a></p>
+            </div>
+            <div class="inner n1-i4 mt-xl-single">
+              <p>+91 73974 16239</p>
+            </div>
+            <div class="inner n1-i5">
+              <p>+91 98866 93027</p>
+            </div>
+            <div class="inner n1-i6">
+              <p>+91 99626 67773</p>
+            </div>
+          </div>
+          <div class="inner n0-i4 pl-xl-single">
+            <div class="inner n1-i1">
+              <h4>Request a Call Back</h4>
+            </div>
+            <div class="inner n1-i2 mt-sm-single">
+              <p>Have questions? Fill out the form, and we’ll get in touch with you shortly.</p>
+            </div>
+            <div class="inner n1-i3 mt-md-single">
+              <a href="https://forms.gle/DRwiA5gdKBqWFsxJA" target="_blank">
+                <button class="green-button">Book a Call</button>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="simpleGrid center center-y-all p-xs-single">
+          <p>Copyright &copy; 2024 HashHackCode | All rights reserved.</p>
+        </div>
+      </section>
+    </footer>
+
+  </div>
+
+  <button onclick="topFunction()" id="scrollButton" title="Go to top">
+    <img src="img/common-img/sroll-top.png" alt="top-bottom">
+  </button>
+
+  <!-- linking swiperjs script -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="js/hash.js"></script>
+  <script src="js/hhc.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
